@@ -1,4 +1,3 @@
 # rps 
 
-#Rock Paper Scissors Game
-#Easy to use.
+Rock Paper Scissors Game.Easy to use.
