@@ -11,7 +11,7 @@ var results = [
   ["Computer Wins!", "Player Wins!", "Tie!"]
 ]; // Dizinin 1. indisi kullanıcının 2. indisi ise bilgisayarın seçimi olarak yazıldığında sonuç textine ulaşılıyor.
 var choices = ["Rock", "Paper", "Scissors"]; //Seçimi belirlemek için indisle seçeneğe ulaşılıyor.
-var winner = [[-1, 0, 1], [1, -1, 1], [0, 1, -1]]; //Dizinin 1. ve 2. indisine göre kazanan bilgisine ulaşılıyor.
+var winner = [[-1, 0, 1], [1, -1, 0], [0, 1, -1]]; //Dizinin 1. ve 2. indisine göre kazanan bilgisine ulaşılıyor.
 function game(choice) {
   if (!gameOver) {
     //Eğer oyun bitmişse yeni oyun başlatana kadar seçimler geçersiz olacak.
